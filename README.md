@@ -37,7 +37,7 @@ You must set up an SSH key to allow the script to connect to the remote servers.
 
 examples:
 1. Run code on arm
-- `sh ./run-arm.sh ~/keys/seng440 vernon user2 -c ./helloworld.c`
+- `sh ./run-arm.sh ~/keys/seng440 vernon user2 -c helloworld.c`
 
 2. Display assembly
-- `sh ./run-arm.sh ~/keys/seng440 vernon user2 -s ./helloworld.c`
+- `sh ./run-arm.sh ~/keys/seng440 vernon user2 -s helloworld.c`
