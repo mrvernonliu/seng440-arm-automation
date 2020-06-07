@@ -32,6 +32,9 @@ commands+="cd ..; rm -Rf ${username};"
 
 echo "$commands"
 
-ssh -i $keypath $username@seng440.ece.uvic.ca "cd /tmp; mkdir ${username}"
-scp -i $keypath $filename $username@seng440.ece.uvic.ca:/tmp/$username
-ssh -i $keypath $username@seng440.ece.uvic.ca "$commands"
+echo "Making folder under /tmp/";
+ssh -i $keypath $username@seng440.ece.uvic.ca "cd /tmp; mkdir ${username}";
+echo "Transferring C code from local machine to remote";
+scp -i $keypath $filename $username@seng440.ece.uvic.ca:/tmp/$username;
+echo "SSH into remote machine";
+ssh -i $keypath $username@seng440.ece.uvic.ca "$commands";
