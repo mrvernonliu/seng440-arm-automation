@@ -30,6 +30,9 @@ I've only run this on MacOS, I'm not sure what is available on other UNIX platfo
 You must set up an SSH key to allow the script to connect to the remote servers. Just follow steps 1-3 on the following article https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2
 
 ### Usage 
+```diff
+- NOTE: Place this script in the same directory as your C files.
+```
 
 `sh ./run-arm.sh <path to private key> <netlink id> <desired arm user> <-command> <path to c file>`
 
