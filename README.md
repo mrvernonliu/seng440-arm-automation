@@ -29,6 +29,8 @@ I've only run this on MacOS, I'm not sure what is available on other UNIX platfo
 
 You must set up an SSH key to allow the script to connect to the remote servers. Just follow steps 1-3 on the following article https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2
 
+When you make your SSH key, don't put a password on it if you want the script to run without any user input
+
 ### Usage 
 **NOTE: Place this script in the same directory as your C files.**
 
@@ -41,3 +43,8 @@ examples:
 
 2. Display assembly
 - `sh ./run-arm.sh ~/keys/seng440 vernon user2 -s helloworld.c`
+
+**Note: On linux, might throw unexpected ( syntax error**
+
+To fix this, chmod the run-arm.sh file to allow execution and then do
+`./run-arm.sh ~/keys/seng440 vernon user2 -s helloworld.c`
