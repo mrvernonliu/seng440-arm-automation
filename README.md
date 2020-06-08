@@ -47,4 +47,4 @@ examples:
 **Note: On linux, might throw unexpected ( syntax error**
 
 To fix this, chmod the run-arm.sh file to allow execution and then do
-`./run-arm.sh ~/keys/seng440 vernon user2 -s helloworld.c`
+- `./run-arm.sh ~/keys/seng440 vernon user2 -s helloworld.c`
