@@ -48,3 +48,14 @@ examples:
 
 To fix this, chmod the run-arm.sh file to allow execution and then do
 - `./run-arm.sh ~/keys/seng440 vernon user2 -s helloworld.c`
+
+### What this actually does
+The script will do the following tasks:
+1. SSH into the seng440 server and make the folder /tmp/netlinkid
+2. Transfer the c file into the previously made folder
+3. SSH into the seng440 server again and create an executable file titled netlinkid.exe
+4. lftp the file into the arm machine
+5. telnet into the arm machine, change the file permissions, and execute
+6. Delete the executable on the arm machine
+7. Delete the folder in tmp
+8. Finish!
