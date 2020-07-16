@@ -18,10 +18,10 @@ However, with this script you simply need to run it with the file you wish to up
 If we need to compile and run code for this class 50 times, we can turn 150-200 minutes of mindless work into just running one command and waiting!
 
 ### demo
-Running C Code
+Running C Code (outdated, uses folder now)
 ![demo](https://i.imgur.com/vccM7cM.gif)
 
-Displaying Assembly
+Displaying Assembly (outdated, uses folder now)
 ![demo-2](https://i.imgur.com/Dxstfr6.gif)
 
 ### Requirements
