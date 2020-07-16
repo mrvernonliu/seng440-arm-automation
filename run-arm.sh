@@ -36,8 +36,7 @@ elif [[ "$mode" == "-s" ]]; then
 fi
 
 # NOTE:
-# If you want to take a look at the code manually get rid of the rm call after the sleep 1
-# and comment out the rm call on the commands append below
+# If you want to take a look at the code manually, comment out all of the cleanup commands below
 
 # cleanup
 commands+="echo 'cleanup';"
